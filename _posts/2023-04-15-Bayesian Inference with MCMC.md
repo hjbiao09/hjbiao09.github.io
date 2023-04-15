@@ -873,19 +873,6 @@ ax.legend()
 
 1. 【蒙特卡洛（Monte Carlo, MCMC）方法的原理和应用】 [https://www.bilibili.com/video/BV17D4y1o7J2/?share_source=copy_web&vd_source=8143554ab30ed4cd174db3b275992f7d](https://www.bilibili.com/video/BV17D4y1o7J2/?share_source=copy_web&vd_source=8143554ab30ed4cd174db3b275992f7d)
 2. 【[硬核系列] 蒙特卡洛模拟与MCMC】 [https://www.bilibili.com/video/BV1qR4y1J7ht/?share_source=copy_web&vd_source=8143554ab30ed4cd174db3b275992f7d](https://www.bilibili.com/video/BV1qR4y1J7ht/?share_source=copy_web&vd_source=8143554ab30ed4cd174db3b275992f7d)
+3. [MCMC/MCMC.ipynb at master · Joseph94m/MCMC](https://github.com/Joseph94m/MCMC/blob/master/MCMC.ipynb)
 
-[MCMC/MCMC.ipynb at master · Joseph94m/MCMC](https://github.com/Joseph94m/MCMC/blob/master/MCMC.ipynb)
-
-[Markov Chain Monte Carlo - 공돌이의 수학정리노트](https://angeloyeo.github.io/2020/09/17/MCMC.html#mcmc를-이용한-bayesian-estimation)
-
-## 요약
-
-이 문서는 MCMC(Markov Chain Monte Carlo)를 사용한 베이지안 추론에 대해 자세히 다루고 있습니다. 베이지안 추론은 확률 모형을 이용하여 불확실성을 수치화하고, 관측값과 모형을 통합하여 미지의 모수를 추정하는 통계적 방법입니다. MCMC는 이러한 베이지안 추론을 수행하는 데에 매우 유용한 방법으로, 사후 분포를 추정하는 데에 사용됩니다.
-
-이 문서에서는 태양 흑점 수 데이터와 감마 분포를 예시로 사용하여 MCMC 샘플링을 설명하고 있습니다. 태양 흑점은 일반적으로 반대 자기극성 쌍으로 나타나며, 그 수는 약 11년의 태양 주기에 따라 달라집니다. 이 데이터는 국제 태양 흑점 번호의 생산, 보존 및 배포를 위한 세계 데이터 센터에서 수집, 관리 및 공개된 데이터입니다.
-
-MCMC 샘플링 과정에서는 먼저 transition model과 prior를 정의합니다. transition model은 현재 상태에서 다음 상태로 이동할 때 어떤 확률적 변화가 일어나는지를 모델링합니다. prior는 모수값이 가질 수 있는 사전 분포를 나타냅니다. 이후, 로그 가능도 함수를 작성하여 주어진 모델과 데이터를 가지고 샘플링을 수행합니다.
-
-샘플링 결과를 시각화하고 예측을 수행하는 과정도 함께 다루고 있습니다. 시각화를 통해 MCMC 알고리즘이 샘플을 강하게 reject하기 시작할 때, 가능성의 포화 구간에 도달했음을 확인할 수 있습니다. 예측 결과를 통해 샘플링된 모델을 사용하여 미래 태양 흑점 수를 예측할 수 있음을 보여줍니다.
-
-마지막으로, 참고 문헌도 제공하고 있어서 MCMC 및 베이지안 추론에 대해 더 깊이 공부하고자 하는 사람들에게 도움이 될 것입니다.
+4. [Markov Chain Monte Carlo - 공돌이의 수학정리노트](https://angeloyeo.github.io/2020/09/17/MCMC.html#mcmc를-이용한-bayesian-estimation)

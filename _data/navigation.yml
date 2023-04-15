@@ -56,4 +56,4 @@ docs-en:
   - title: Posts
     children:
       - title: Bayesian
-        url:   /_posts/Bayesian
+        url:   /_posts/Bayesian/

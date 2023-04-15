@@ -1,9 +1,12 @@
 ---
 title: Bayesian Inference with MCMC
 tags: Bayesian
+comments: true
 ---
 
 # Bayesian Inference with MCMC
+
+**업데이트중...**
 
 # MCMC
 
@@ -876,3 +879,5 @@ ax.legend()
 3. [MCMC/MCMC.ipynb at master · Joseph94m/MCMC](https://github.com/Joseph94m/MCMC/blob/master/MCMC.ipynb)
 
 4. [Markov Chain Monte Carlo - 공돌이의 수학정리노트](https://angeloyeo.github.io/2020/09/17/MCMC.html#mcmc를-이용한-bayesian-estimation)
+
+

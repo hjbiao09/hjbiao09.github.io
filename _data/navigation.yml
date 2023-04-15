@@ -56,7 +56,8 @@ docs-en:
   - title: Posts
     children:
       - title: Bayesian
-        url:   /_posts/Bayesian/
+#        url:   /_posts/Bayesian/
+        url: https://hjbiao09.github.io/2023/04/15/Bayesian-Inference-with-MCMC.html
 
 layouts:
 

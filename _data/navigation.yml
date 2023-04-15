@@ -50,3 +50,10 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+
+
+docs-en:
+  - title: Posts
+    children:
+      - title: Bayesian
+        url:   /_posts/Bayesian
